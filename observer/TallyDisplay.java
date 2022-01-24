@@ -31,6 +31,5 @@ private void display() {
     for (String i : votes.keySet()) {
         System.out.println( i + ":" + votes.get(i));
       }
-
 }
 }

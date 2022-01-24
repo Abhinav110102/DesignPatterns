@@ -13,7 +13,7 @@ private int numVotes;
 /**
  * we create this.poll equal it to poll
  * We register the observer into the poll  by saying this 
- * @param Percentage Display display the percentages 
+ * @param Percentage Display display the percentages of votes for each candidate
  */
 public PercentageDisplay(Subject poll){
  this.poll = poll;
@@ -38,7 +38,4 @@ private void display(){
         System.out.println(i + ":" + (Math.round(percent*100))/100 + "% ");
     }
 }
-
-
-
 }

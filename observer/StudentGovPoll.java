@@ -46,14 +46,14 @@ public void notifyObservers(){
     }
 }
 /**
- * We create method which add the candidates
+ * We created a method which add the candidates
  * @param addCandidate adds the candidates
  */
 public void addCandidate(String president){
     votes.put(president, 0);
 }
 /**
- * We create method  which enters the votes 
+ * We created a method  which enters the votes 
  * @param enterVotes enter the votes
  */
 public void enterVotes(String president, int num){
@@ -65,7 +65,7 @@ public void enterVotes(String president, int num){
 }
 /**
  * We create method which return school
- * @return We return a string representation of school
+ * @return School We return a string representation of school
  */
 public String getSchool(){
     return School;
