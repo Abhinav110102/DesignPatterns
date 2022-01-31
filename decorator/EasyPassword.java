@@ -19,7 +19,7 @@ public class EasyPassword extends Password {
     {
         String pas = password.replaceAll("\\s","");
         int high = 100;
-        int low = 1;
+        int low = 0;
         Random randomNum = new Random();
         int rannum = low + randomNum.nextInt(high);
 		return pas+rannum;
