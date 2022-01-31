@@ -12,10 +12,11 @@ private HashMap<String, Integer> votes;
  * We register the observer into the poll by saying this 
  * @param TallyDisplay Displays the votes of the candidates 
  */
-public TallyDisplay(Subject poll){
+public TallyDisplay(Subject poll)
+{
     this.poll = poll;
     poll.registerObserver(this);
-}
+    }
 /**
  * We created a method which updates the HashMap
  * @param update updates the HashMap

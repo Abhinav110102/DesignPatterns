@@ -15,27 +15,30 @@ private int numVotes;
  * We register the observer into the poll  by saying this 
  * @param Percentage Display display the percentages of votes for each candidate
  */
-public PercentageDisplay(Subject poll){
+public PercentageDisplay(Subject poll)
+{
  this.poll = poll;
  poll.registerObserver(this);
 }
 /** We created a method which updates the HashMap
  *@param update  updates the HashMap
  */
-public void update(HashMap <String,Integer> votes){
+public void update(HashMap <String,Integer> votes)
+{
     this.votes = votes;
     display();
 }
 /**
  * This displays the percentage of votes each candidate received from the total votes
  */
-private void display(){
+private void display()
+ {
     for (String i : votes.keySet())
-     {double Total = 0.0; double percent = 0.0;
+    {double Total = 0.0; double percent = 0.0;
         for(double input: votes.values())
         {Total += input;}
         percent =(votes.get(i)/Total)*100;
         System.out.println(i + ":" + (Math.round(percent*100))/100 + "% ");
     }
-}
+ }
 }
