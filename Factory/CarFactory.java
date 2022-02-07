@@ -4,7 +4,7 @@ package Factory;
  **/
 public class CarFactory {
 /**
-* We create if and else if statements which get the make and model from car store and return car with all features associated with that car
+* We create if and else if statements which get the make and model from car store and return car with all features associated with that car.
 * @param createCar we determine what the type of car is by its make, and model
 */
    public static Car createCar(String type, String make, String model)
@@ -28,7 +28,7 @@ public class CarFactory {
     return car;
    }
 /**
-* @return car We return a car with all the features associated with that car
+* @return car We return a car with all the features associated with that car.
 */
 
 }
