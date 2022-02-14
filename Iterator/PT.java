@@ -19,7 +19,7 @@ public class PT {
     * We create this.firstName equal it to firstName.
     * We create this.lastName equal it to lastName. 
     * We create this.bio equal it to bio.  
-    * @param PT we get the firstName,lastName and bio on how to do the exercise.
+    * @param PT we get the firstName,lastName and bio.
     */
     public PT(String firstName, String lastName, String bio){
     this.firstName = firstName;
