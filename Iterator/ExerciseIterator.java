@@ -1,10 +1,10 @@
 package Iterator;
 import java.util.Iterator;
-/** 
- * @author Abhinav
- * We create private array called Exercise[] exercise.
- * We create private int called postitons.
- **/
+    /** 
+    * @author Abhinav
+    * We create private array called Exercise[] exercise.
+    * We create private int called postitons.
+    **/
 public class ExerciseIterator implements Iterator {
 
     private Exercise[] exercises;
@@ -38,5 +38,5 @@ public class ExerciseIterator implements Iterator {
         Exercise exercise = exercises[position];
         position = position +1;
         return exercise;
-}
+    }
 }
