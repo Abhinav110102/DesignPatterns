@@ -1,8 +1,7 @@
-
 /**
- * @author Abhinav Myadala
- * This enum list all the Genre that song can have 
- */
+* @author Abhinav Myadala
+* This enum list all the Genre that songs can have 
+*/
 enum Genre
 {
        ROCK,
