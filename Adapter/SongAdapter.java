@@ -1,5 +1,6 @@
 /**
 * @author Abhinav Myadala
+SongAdapter extends song class
 */
 public class SongAdapter extends Song{
 /**    
